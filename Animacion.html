@@ -1,0 +1,50 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animacion</title>
+
+<style>
+    .Pikachu{
+        height: 163px;
+        width: 237px;
+        background: url("Pikachu.png");
+        margin: 0 auto;
+        /* background-position: -486px 0; */
+        animation: correr 1s steps(4) infinite;
+        margin-top: -200px;
+        margin-left: 12px;
+
+    }
+
+    .Fondo{
+        height: 294px;
+        width: ;
+        background: url("https://media.istockphoto.com/vectors/game-background-flat-style-2d-application-vector-illustration-for-vector-id636526718?k=20&m=636526718&s=170667a&w=0&h=clWBsz9OiHeX5Ty8ODLcrmIQEMymd7fn5wiHxA_fJ6M=");
+        background-repeat: no-repeat;
+        
+    }
+
+    @keyframes  correr{
+        0%{
+            background-position: 0px;
+        }
+        100%{
+            background-position: -967px;
+        }
+    }
+
+    @keyframes animarfondo{
+        0%{
+            background-position: 0px;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="Fondo"></div>
+        <div class="Pikachu"></div>
+</body>
+</html>
